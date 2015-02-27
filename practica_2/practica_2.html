@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Ejemplo de HTML5" />
+        <meta name="keywords" content="HTML5,CSS3,JavaScript" />
+        <title>Formulario</title>
+    </head>
+    <body>
+         <div>
+             <form action="datos.html" method="POST">
+                 <fieldset>
+                 <legend>Personal</legend>
+                     <label for="txtNombre">Nombre</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtNombre" name="nombre" value="Ossiris" />
+                     <br/>
+                     <br/>
+                     <label for="txtCorreo">Apellido Paterno</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" value="Garcia" />
+                     <br/>
+                     <br/>
+                     <label for="txtAsunto">Apellido Materno</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtAsunto" name="asunto" value="Fierros" />
+                     <br/>
+                     <br/>
+                     
+                 </fieldset>
+                 <input type="submit" name="enviar" value="Guardar" />
+             </form>
+         </div>
+    </body>
+</html>
+
+<html>
+    <head>
+        <meta name="description" content="Ejemplo de HTML5" />
+        <meta name="keywords" content="HTML5,CSS3,JavaScript" />
+        <title>Formulario</title>
+    </head>
+    <body>
+         <div>
+             <form action="datos.html" method="GET">
+                 <fieldset>
+                 <legend>Direccion </legend>
+
+                      <label for="txtNombre">Domicilio</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtNombre" name="nombre" value="" />
+                     <br/>
+                     <br/>
+                     <label for="txtCorreo">Colonia</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtCorreo" name="correo" value="" />
+                     <br/>
+                     <br/>
+                     <label for="txtAsunto">Codigo Postal</label><br/>
+                     <input type="text" size="40" maxlength="255" id="txtAsunto" name="" />
+                     <br/>
+                     <br/>
+                      
+                 </fieldset>
+
+                 <fieldset>
+                 <legend>sexo</legend>
+                      <input type="radio" id="pro1" name="programacion" value="1"> 
+                     <label for="pro1">Masculino</label><br/>
+                      <input type="radio" id="pro2" name="programacion" value="2" checked="checked"> 
+                     <label for="pro2">Femenino</label><br/>
+                    <br/>
+                    <br/>
+                  <fieldset>
+                 <legend>Idiomas</legend>                  
+                      <input type="checkbox" id="pro11" name="programacion1" value="1"> 
+                     <label for="pro11">Español</label><br/>
+                      <input type="checkbox" id="pro22" name="programacion2" value="2" checked="checked"> 
+                     <label for="pro22">Ingles</label><br/>
+                      <input type="checkbox" id="pro33" name="programacion2" value="3"> 
+                     <label for="pro33">Aleman</label><br/>
+                    <input type="checkbox" id="pro33" name="programacion3" value="3"> 
+                     <label for="pro33">Frances</label><br/>
+                    <br/>
+                    <br/>
+                    <legend>Estados</legend>
+                    <select id="Estado" name="Estado">
+                        <option value="-1"></option>
+                        <option value="1">Aguascalientes</option>
+                        <option value="2">Baja California</option>
+                        <option value="3" selected="selected">Baja California Sur</option>
+                        <option value="4">Campeche</option>
+                        <option value="5">Chiapas</option>
+                        <option value="6">Chihuahua</option>
+                        <option value="7">Coahuila</option>
+                        <option value="8">Colima</option>
+                        <option value="9">Distrito Federal</option>
+                        <option value="10">Durango</option>
+                        <option value="11">Estado de México</option>
+                        <option value="12">Guanajuato</option>
+                        <option value="13">Guerrero</option>
+                        <option value="14">Hidalgo</option>
+                        <option value="15">Jalisco</option>
+                        <option value="16">Michoacán</option>
+                        <option value="17">Morelos</option>
+                        <option value="18">Nayarit</option>
+                        <option value="19">Nuevo León</option>
+                        <option value="20">Puebla</option>
+                        <option value="21">Oaxaca</option>
+                        <option value="22">Querétaro</option>
+                        <option value="23">Quintana Roo</option>
+                        <option value="24">San Luis Potosí</option>
+                        <option value="25">Sinaloa</option>
+                        <option value="26">Sonora</option>
+                        <option value="27">Tabasco</option>
+                        <option value="28">Tamaulipas</option>
+                        <option value="29">Tlaxcala</option>
+                        <option value="30">Veracruz</option>
+                        <option value="31">Yucatán</option>
+                        <option value="32">Zacatecas</option>
+                    </select>
+                    <input type="hidden" name="oculto" value="10">
+                 </fieldset>
+
+                 <input type="submit" name="enviar" value="Guardar" />
+             </form>
+         </div>
+    </body>
+</html>
+
+
+
+
+
+
+
